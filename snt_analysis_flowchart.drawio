@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.1">
+  <diagram name="Page-1" id="_joB1iaHv3DUG348ytJx">
+    <mxGraphModel dx="2085" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2gafX6BW3km86e23SdZK-1" value="1. Data Collection&quot;, &quot;Bright Data Collector extracts Instagram profiles." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="40" width="284" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2gafX6BW3km86e23SdZK-2" value="1.5. Read dataset inside Jupyter Notebook" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="50" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2gafX6BW3km86e23SdZK-3" value="2. Data Preprocessing&quot;, &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;Clean text, tokenize bios/posts, extract hashtags, remove stopwords." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="150" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2gafX6BW3km86e23SdZK-4" value="3. Sentiment Analysis&quot;, &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;Apply VADER for sentiment classification; classify posts and bios as Positive, Neutral, or Negative." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="160" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2gafX6BW3km86e23SdZK-5" value="4. Feature Engineering&quot;, &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;Generate TF-IDF vectors; create WordCloud visualizations; analyze bigrams." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="290" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2gafX6BW3km86e23SdZK-6" value="5. Model Training &amp;amp; Evaluation&quot;, &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;Train Logistic Regression, SVM, Naive Bayes models; evaluate using Accuracy, Precision, Recall, F1-Score." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="300" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2gafX6BW3km86e23SdZK-7" value="6. Engagement Correlation&quot;, &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;Analyze sentiment correlation with avg_engagement for insights.&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="495" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2gafX6BW3km86e23SdZK-9" value="7. Results Interpretation&quot;, &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;Identify predictors of positive sentiment; finalize findings.&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="490" width="260" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
